@@ -13,6 +13,10 @@ import Orders from './pages/Orders';
 import man from './man';
 import woman from './woman';
 import both from './both';
+import Ordersummary from './pages/Ordersummary';
+import Register from './pages/Register';
+
+
 function App() {
   return (
     <div className="App">
@@ -40,10 +44,13 @@ function App() {
         name={item.name}
       />))}/>
       <Route path='/orders' element={<Orders/>}/>
+      <Route path='/ordersummary' element={<Ordersummary/>}/>
       <Route path='/login' element={<Login/>}/>
+      <Route path='/register' element={<Register/>}/>
       <Route path='/cart' element={<Cart/>}/>
      </Routes>
      </Router>
+     
     </div>
   );
 }

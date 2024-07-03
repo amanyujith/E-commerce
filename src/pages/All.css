@@ -1,0 +1,53 @@
+
+.nav{
+    background-color: rgb(179, 202, 202);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.men{
+    
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border: solid 3px beige;
+    margin: 10px;
+    background-color: rgb(211, 194, 194);
+    width: fit-content;
+    display: inline-block;
+    border-radius: 10%;
+    justify-content: center;
+}
+.list{
+padding-bottom: 20px;
+justify-content: space-around;
+}
+.men button{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.men img{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
+.orders{
+    background-color: rgb(220, 215, 209);
+    width: 40%;
+    margin-left: 400px;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding: 10px;
+}
+.register{
+    background-color: rgb(229, 223, 216);
+    max-width: fit-content;
+    padding: 20px;
+    margin-left: 42%;
+    margin-top: 2%;
+    border-radius: 10px;
+    border-color: black;
+}
